@@ -1,0 +1,196 @@
+/* .col-md-3{
+    position: relative;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400&family=Quicksand:wght@400&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ddd;
+}
+#body_content .col-md-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header_bar .container .row{
+  
+}
+
+#header_bar{
+  background-color: #2F5266;
+  color: #F5FFFF;
+}
+
+#header_bar .row a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#header_bar .row .email a:hover{
+  color: #E9B5AC;
+}
+
+#header_bar .row .cell a:hover{
+  color: #E9B5AC;
+}
+#header_bar .search_field button {
+  float: left;
+  width: 20%;
+  padding: 2px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+#header_bar .search_field button:hover {
+  background: #0b7dda;
+}
+#header_area {
+    padding: 15px 0;
+    background-color: #A0B2BE;
+  }
+  /* #header_area .logtit{
+    display: inline-block;
+  } */
+
+  #header_area .col-md-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #header_area .col-md-9 ul {
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+
+  #header_area .col-md-9 ul li {
+    display: inline-block;
+    position: relative;
+  }
+  #header_area .col-md-9 ul li a {
+    color: #262626;
+    padding: 20px 10px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  #header_area .col-md-9 ul li a:hover {
+    background: #ea1a70;
+    color: #fff;
+  }
+  
+  /*Dropdown Menu*/
+  #header_area .col-md-9 ul li ul {
+    background: #262626 none repeat scroll 0 0;
+    left: -99999px;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    top: 62px;
+    width: 200px;
+  }
+  #header_area .col-md-9 ul li:hover ul {
+    left: 0px;
+  }
+  #header_area .col-md-9 ul li ul li {
+    display: block;
+  }
+  #header_area .col-md-9 ul li ul li a {
+    color: #fff;
+    padding: 8px 10px;
+  }
+  #header_area .col-md-9 ul li ul li a:hover {
+    background: #ddd;
+    color: #262626;
+  }
+  #header_area .col-md-9 ul li:hover a {
+    background: #ea1a70;
+    color: #fff;
+  }
+  #header_area .col-md-9 ul li:hover ul li a {
+    background: none;
+    color: #fff;
+  }
+  
+  /*Sub Dropdown Menu*/
+  #header_area .col-md-9 ul li ul ul {
+    left: -99999px;
+    top: 0;
+    position: absolute;
+  }
+  #header_area .col-md-9 ul li:hover ul li ul {
+    left: -999999px;
+  }
+  #header_area .col-md-9 ul li ul li:hover ul {
+    left: 200px;
+  }
+  #header_area .col-md-9 ul li ul li:hover a {
+    background: #ea1a70;
+    color: #fff;
+  }
+  #header_area .col-md-9 ul ul li:hover ul li a {
+    background: #262626;
+    color: #fff;
+  }
+  #header_area .col-md-9 ul ul li ul li a:hover {
+    background: #ea1a70;
+    color: #fff;
+  }
+
+  /* Body content */
+
+  .main_heading {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  #body_content .par1_heading{
+    font-family: 'Bebas Neue', cursive;
+  }
+  #body_content .par2_heading{
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  #body_content p{
+    font-family: 'Quicksand', sans-serif;
+  }
+  .album{
+    margin-top: 28px;
+  }
+  .album .album_heading{
+    text-align: center;
+  }
+  .album .album_heading h2 {
+    font-family: 'Bebas Neue', cursive;
+  }
+/* .col-md-9 #Home{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.col-md-9 #About{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.col-md-9 #Service{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.col-md-9 #Contact{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.col-md-9 #FAQ{
+    margin-right: 20px;
+    padding-right: 10px;
+} */
+
